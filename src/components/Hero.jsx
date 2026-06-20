@@ -47,7 +47,7 @@ export default function Hero() {
         <div className="relative w-36 h-36 md:w-44 md:h-44 mx-auto mb-8">
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-amber to-cyan blur-md opacity-40 animate-pulse" />
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Sri Lakshmi Bathula"
             className="relative w-full h-full object-cover rounded-full border-2 border-line shadow-2xl"
           />
@@ -99,13 +99,6 @@ export default function Hero() {
         className="flex flex-wrap items-center justify-center gap-4 mt-9 z-10"
       >
         <a
-          href="/SriLakshmi-Bathula-Resume.pdf"
-          download
-          className="px-6 py-3 rounded-md bg-amber text-ink font-mono text-sm font-medium hover:brightness-110 transition focus-ring shadow-lg shadow-amber/10"
-        >
-          ↓ Download Resume
-        </a>
-        <a
           href="https://github.com/Srilakshmi-Bathula"
           target="_blank"
           rel="noreferrer"
@@ -114,7 +107,7 @@ export default function Hero() {
           GitHub ↗
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/srilakshmi-bathula"
           target="_blank"
           rel="noreferrer"
           className="px-6 py-3 rounded-md border border-line text-white font-mono text-sm hover:border-cyan hover:text-cyan transition focus-ring"

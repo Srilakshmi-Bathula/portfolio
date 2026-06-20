@@ -42,13 +42,6 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        <a
-          href="/SriLakshmi-Bathula-Resume.pdf"
-          download
-          className="hidden md:inline-block font-mono text-[13px] px-4 py-1.5 rounded border border-amber/40 text-amber hover:bg-amber/10 transition-colors focus-ring"
-        >
-          ./resume.pdf
-        </a>
         <button
           className="md:hidden text-mutedtxt"
           onClick={() => setOpen(!open)}
@@ -66,11 +59,6 @@ export default function Nav() {
               </a>
             </li>
           ))}
-          <li>
-            <a href="/SriLakshmi-Bathula-Resume.pdf" download className="text-amber">
-              ./resume.pdf
-            </a>
-          </li>
         </ul>
       )}
     </motion.header>
