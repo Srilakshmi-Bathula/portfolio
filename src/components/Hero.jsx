@@ -107,7 +107,7 @@ export default function Hero() {
           GitHub ↗
         </a>
         <a
-          href="https://www.linkedin.com/in/srilakshmi-bathula"
+          href="https://www.linkedin.com/in/srilakshmibathula/"
           target="_blank"
           rel="noreferrer"
           className="px-6 py-3 rounded-md border border-line text-white font-mono text-sm hover:border-cyan hover:text-cyan transition focus-ring"
