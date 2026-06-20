@@ -14,7 +14,7 @@ const projects = [
       'MVC structure separating controllers, models, routes',
     ],
     stack: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT'],
-    github: 'https://github.com/Srilakshmi-Bathula',
+    github: 'https://github.com/Srilakshmi-Bathula/Contact-Manager-Backend-API',
     demo: null,
   },
   {
@@ -29,7 +29,7 @@ const projects = [
       'Prompt engineering tuned for difficulty and feedback quality',
     ],
     stack: ['Python', 'HTML', 'CSS', 'OpenAI API', 'Prompt Engineering'],
-    github: 'https://github.com/Srilakshmi-Bathula',
+    github: 'https://github.com/Srilakshmi-Bathula/AI-Campus-Coach',
     demo: null,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
       'Preprocessing + feature analysis with NumPy/Pandas',
     ],
     stack: ['Python', 'NumPy', 'Pandas', 'Scikit-learn', 'Google Colab'],
-    github: 'https://github.com/Srilakshmi-Bathula',
+    github: 'https://github.com/Srilakshmi-Bathula/iris-flower-classification',
     demo: null,
   },
 ]
